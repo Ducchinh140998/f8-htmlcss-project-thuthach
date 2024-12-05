@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* common*/
+a {
+    text-decoration: none;
+}
+.main-content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(100% - 48px);
+}
+
+/* header */
+.header .main-content {
+    display: flex;
+    margin-top: 52px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.header .logo {
+    margin-right: auto;
+}
+.header .nav {
+    display: block;
+    text-align: center;
+}
+
+.header .menu {
+    gap: 39px;
+}
+
+.header .menu a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2f3a3b;
+}
+
+.nav li.active a {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.header .menu {
+    display: flex;
+}
+
+.header .actions {
+    display: flex;
+    margin-left: auto;
+}
+
+.header .link-action {
+    display: flex;
+    /* height: 53px; */
+    font-size: 16px;
+    /* line-height: 24px; */
+    margin-right: 24px;
+    align-items: center;
+}
+.header .link-action a {
+    color: #494949;
+}
+
+.header .btn-action {
+    padding: 12px 24px;
+    min-width: 108px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1ebfc1;
+    border: 1px solid #1ebfc1;
+    border-radius: 6px;
+    background-color: #ffff;
+    cursor: pointer;
+}
