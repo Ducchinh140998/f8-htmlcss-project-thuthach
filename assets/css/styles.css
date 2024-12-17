@@ -407,3 +407,109 @@ left: 664px; */
     font-weight: 400;
     line-height: 27px; /* 168.75% */
 }
+.popular {
+    margin-top: 130px;
+}
+.popular .courses {
+    color: #767e7e;
+    font-size: 12px;
+    font-weight: 700;
+}
+.popular .title {
+    margin: 18px 0 19px;
+    color: #0d1111;
+    font-size: 42px;
+    font-weight: 700;
+}
+.popular .info {
+    display: flex;
+    align-items: center;
+}
+.popular .desc {
+    width: 525px;
+    height: 64px;
+    color: #767e7e;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+}
+.popular .view {
+    margin-left: auto;
+    color: #1ebfc1;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: underline;
+}
+.popular .list-pic {
+    gap: 47px;
+    margin-top: 79px;
+    display: flex;
+}
+.popular .pic-child {
+    position: relative;
+}
+.popular .pic {
+    object-fit: cover;
+    width: 359px;
+    height: 393px;
+    border-radius: 8px;
+    background: #d0efed;
+    opacity: 0.35;
+}
+.popular .info-pic {
+    top: 323px;
+    left: 17px;
+    position: absolute;
+    width: 325px;
+    /* height: 195px; */
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+    padding: 18px 82px 29px 25px;
+}
+.popular .pic-tile {
+    height: 33px;
+    margin-bottom: 16px;
+    color: #0d1111;
+    font-size: 22px;
+    font-weight: 700;
+}
+.popular .desc-pic {
+    height: 33px;
+    margin-bottom: 6px;
+    color: #767e7e;
+    font-size: 16px;
+    font-weight: 400;
+}
+.popular .desc-pic b {
+    color: #0d1111;
+    font-size: 22px;
+    font-weight: 700;
+}
+.popular .desc-pic-lv2 {
+    height: 21px;
+    color: #9da6a5;
+    margin-bottom: 18px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.popular .time-class {
+    height: 21px;
+    display: flex;
+    color: #9da6a5;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* .popular .classes ::before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #1ebfc1;
+} */
