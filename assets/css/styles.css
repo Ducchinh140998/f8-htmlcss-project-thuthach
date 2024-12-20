@@ -545,3 +545,50 @@ left: 664px; */
     font-weight: 400;
     text-align: center;
 }
+.information {
+    margin-top: 264px;
+}
+.information .left-information {
+    padding: 37px 0;
+    width: 419px;
+    height: 407px;
+}
+.information .desc-informatinon {
+    color: #5d6564;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 150% */
+    margin-top: 27px;
+    margin-bottom: 33px;
+}
+.information .benfoakes {
+    display: flex;
+}
+.information .student {
+    margin-left: 5px;
+    color: #767e7e;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.information strong {
+    color: #070707;
+    font-size: 16px;
+    font-weight: 500;
+}
+.information .ifo-btn {
+    display: flex;
+    gap: 30px;
+    margin-top: 52px;
+}
+.information .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(42, 201, 191, 1);
+}
