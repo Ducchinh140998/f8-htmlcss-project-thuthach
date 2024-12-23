@@ -134,6 +134,7 @@ a {
 }
 .hero .hero-left .btn-group .btn-action {
     border-radius: 14px;
+    border: none;
     background: #1ebfc1;
     padding: 20px 41px 21px;
     color: #ffff;
@@ -654,4 +655,40 @@ left: 664px; */
     height: 78px;
     border-radius: 50%;
     object-fit: cover;
+}
+.subscription {
+    background: rgba(222, 246, 245, 1);
+    margin-top: 130px;
+}
+.subscription .main-content {
+    display: flex;
+    align-items: center;
+    padding: 76px 0 88px 0;
+}
+.subscription .sub {
+    margin-right: 410px;
+}
+.subscription .sub .redy {
+    padding: 10px 0;
+    color: #070707;
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+.subscription .sub .desc {
+    color: #767e7e;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+}
+.subscription .btn-action {
+    border-radius: 14px;
+    border: none;
+    background: #1ebfc1;
+    padding: 20px 41px 21px;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
 }
