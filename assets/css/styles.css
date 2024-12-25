@@ -692,3 +692,33 @@ left: 664px; */
     font-weight: 600;
     cursor: pointer;
 }
+.footer .main-content {
+    display: flex;
+    padding: 131px 0 157px;
+    gap: 144px;
+}
+.footer .logo {
+    height: 37px;
+    width: 127px;
+}
+.footer .colum .heading {
+    color: #2e2e2e;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.footer .colum .item {
+    color: #535353;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+.footer .colum .list-4 .item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 9px;
+}
+.footer .colum-3 .item {
+    width: 157px;
+}
